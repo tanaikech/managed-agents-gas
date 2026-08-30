@@ -1,0 +1,27 @@
+{
+  "name": "gemini-managed-agent-sandbox-local",
+  "version": "1.0.0",
+  "description": "Local runner with real-time SSE streaming for Gemini Managed Agents Linux Sandbox",
+  "main": "testSuites.js",
+  "type": "module",
+  "scripts": {
+    "test": "node testSuites.js",
+    "test:provision": "node testSuites.js provision",
+    "test:1": "node testSuites.js 1",
+    "test:2": "node testSuites.js 2",
+    "test:3": "node testSuites.js 3",
+    "test:4": "node testSuites.js 4",
+    "test:5": "node testSuites.js 5",
+    "test:6": "node testSuites.js 6",
+    "test:list": "node testSuites.js list",
+    "test:teardown": "node testSuites.js teardown"
+  },
+  "dependencies": {
+    "@google/genai": "^2.3.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

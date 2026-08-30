@@ -1,0 +1,7 @@
+**/.env
+**/.env.*
+!**/.env.example
+temp/
+node_modules/
+**/node_modules/
+articles/
